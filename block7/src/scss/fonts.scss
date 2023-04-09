@@ -1,16 +1,21 @@
+/* @font-face {
+  font-family: 'TT Lakes';
+  src: url('../fonts/TTLakes/TTLakes-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+} */
+
 @font-face {
   font-family: 'TT Lakes';
-  src: url('../src/fonts/TTLakes/TTLakes-Bold.eot');
-  src: local('../src/fonts/TTLakes/TT Lakes Bold'),
-    local('../src/fonts/TTLakes-Bold'),
-    url('../src/fonts/TTLakes/TTLakes-Bold.eot?#iefix')
-      format('embedded-opentype'),
-    url('../src/fonts/TTLakes/TTLakes-Bold.woff') format('woff'),
-    url('../src/fonts/TTLakes/TTLakes-Bold.ttf') format('truetype');
+  src: url('../fonts/TTLakes/TTLakes-Bold.eot');
+  src: local('TT Lakes Bold'), local('TTLakes-Bold'),
+    url('../fonts/TTLakes/TTLakes-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/TTLakes/TTLakes-Bold.woff') format('woff'),
+    url('../fonts/TTLakes/TTLakes-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
-
+/* 
 @font-face {
   font-family: 'TT Lakes';
   src: url('TTLakes-DemiBold.eot');
@@ -43,3 +48,4 @@
   font-weight: normal;
   font-style: normal;
 }
+ */
