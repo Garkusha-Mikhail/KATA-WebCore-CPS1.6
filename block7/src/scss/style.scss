@@ -19,5 +19,20 @@ body {
   margin: 0;
   font-family: 'TT Lakes';
   background-color: $bgColor;
-  color: $text;
+  color: $mainText;
+}
+div {
+  font-size: 30px;
+}
+.c1 {
+  font-weight: 400;
+}
+.c2 {
+  font-weight: 600;
+}
+.c3 {
+  font-weight: 500;
+}
+.c4 {
+  font-weight: 400;
 }
