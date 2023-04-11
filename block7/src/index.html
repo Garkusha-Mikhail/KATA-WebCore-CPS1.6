@@ -13,7 +13,93 @@
   <body>
     <div class="wrapper">
       <!-- враппер страницы -->
-      <aside class="sidebar"><!-- боковое меню --> </aside>
+      <aside class="sideBar"
+        ><!-- боковое меню -->
+
+        <!--  /*верхняя навигационная панель*/ -->
+        <nav class="sideBarMenu__header">
+          <ul class="sideBarMenu__list">
+            <li class="sideBarMenu__items">
+              <div href="#" class="icon burgerIcon--close">
+                <span class="burger"></span>
+                <!-- <img src="icons/burger.svg" alt="закрыть меню"> -->
+              </div>
+            </li>
+            <li class="sideBarMenu__items">
+              <div href="#" class="logo">
+                <img src="../src/img/cps-logo.svg" alt="логотип" />
+              </div>
+            </li>
+            <li class="sideBarMenu__items checkstatus">
+              <div href="#" class="icon">
+                <img src="..//src/img/icons/search.png" alt="" />
+              </div>
+            </li>
+          </ul>
+
+          <nav class="sideMenu">
+            <ul class="sideMenu__list">
+              <li class="sideMenu__item sideMenu__item--active">
+                <a href="#" class="sideMenu__link">Ремонт техники</a>
+              </li>
+              <li class="sideMenu__item sideMenu__item--active">
+                <a href="#" class="sideMenu__link">Услуги и сервисы</a>
+              </li>
+              <li class="sideMenu__item sideMenu__item--active">
+                <a href="#" class="sideMenu__link">Корпоративным клиентам</a>
+              </li>
+              <li class="sideMenu__item sideMenu__item--active">
+                <a href="#" class="sideMenu__link">Продавцам техники</a>
+              </li>
+              <li class="sideMenu__item sideMenu__item--active">
+                <a href="#" class="sideMenu__link">Партнерам</a>
+              </li>
+              <li class="sideMenu__item sideMenu__item--active">
+                <a href="#" class="sideMenu__link">Производителям</a>
+              </li>
+              <li class="sideMenu__item sideMenu__item--active">
+                <a href="#" class="sideMenu__link">Наши сервисные центры</a>
+              </li>
+              <li class="sideMenu__item sideMenu__item--active">
+                <a href="#" class="sideMenu__link">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </nav>
+        <nav class="bottomMenu">
+          <ul class="bottomMenu__list">
+            <li class="bottmMenu__bar">
+              <ul class="bottomMenuBar__items">
+                <li class="phone">
+                  <div href="#" class="icon">
+                    <img src="../src/img/icons/phone.svg" alt="" />
+                  </div>
+                </li>
+                <li class="chat">
+                  <div href="#" class="icon">
+                    <img src="../src/img/icons/chat.svg" alt="" />
+                  </div>
+                </li>
+                <li class="profile">
+                  <div href="#" class="icon">
+                    <img src="../src/img/icons/profile.svg" alt="" />
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <li class="bottomMenu__mail">mail@cps.com</li>
+            <li class="bottomMenu__phone">8 800 890 8900</li>
+            <li class="bottomMenu__leng">
+              <ul class="leng">
+                <li class="leng__item leng__item--active">ru</li>
+                <li class="leng__item leng__item--active">en</li>
+                <li class="leng__item leng__item--active">ch</li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+
       <div class="content">
         <div class="header">
           <nav class="topBar">
