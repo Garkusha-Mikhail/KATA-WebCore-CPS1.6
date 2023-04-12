@@ -1,26 +1,11 @@
+@import './nullstyle.scss';
 @import './vars.scss';
 @import './fonts.scss';
 @import './sideBar.scss';
-
-body {
-  padding: 1rem;
-  margin: 0;
-  font-family: 'TT Lakes';
-  background-color: $bgColor;
-  color: $menuText;
-}
-div {
-  font-size: 30px;
-}
-.c1 {
-  font-weight: 400;
-}
-.c2 {
-  font-weight: 600;
-}
-.c3 {
-  font-weight: 500;
-}
-.c4 {
-  font-weight: 400;
-}
+@import './header.scss';
+@import './about.scss';
+@import './brands.scss';
+@import './main.scss';
+@import './techniс.scss';
+@import './price.scss';
+@import './footer.scss';

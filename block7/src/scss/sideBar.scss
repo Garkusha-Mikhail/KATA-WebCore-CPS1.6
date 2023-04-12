@@ -1,4 +1,7 @@
 .sideBar {
+  display: none; /* менять на flex при открытии */
+  flex-direction: column;
+  justify-content: space-between;
   list-style: none;
   width: 320px;
   height: 100vh;
@@ -11,7 +14,7 @@
   .sideBarMenu__list {
     display: flex;
     padding: 20px;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
     list-style: none;
     margin: 0;
@@ -60,10 +63,8 @@
 .checkstatus {
   margin-left: auto;
 }
-.logo {
+.sideLogo {
   margin-left: 20px;
-  position: relative;
-  top: 7px;
 }
 .sideMenu__list {
   list-style: none;

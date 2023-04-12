@@ -1,0 +1,100 @@
+.topBar {
+  display: flex;
+}
+
+.header {
+  width: 100%;
+  /*  height: 88px; */
+  margin: 0 auto;
+  border-bottom: 1px solid #d9fff5;
+}
+
+.topBar {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.topBar__left {
+  padding-left: 16px;
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+}
+
+.topBar__right {
+  padding: 0 16px;
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 16px;
+}
+
+.midBar__title {
+  font-family: "TT Lakes";
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 40px;
+  color: #000;
+}
+
+.mainMenu__list {
+  font-size: 16px;
+  padding-left: 16px;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  align-items: center;
+  cursor: pointer;
+  gap: 24px;
+  color: #7e7e82;
+  overflow: hidden;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+.mainMenu__list .mainMenu_item {
+  border: 2px solid transparent;
+  border-radius: 6px;
+  padding: 8px;
+}
+.mainMenu__list .mainMenu_item:hover {
+  border: 2px solid #b8ffec;
+  border-radius: 6px;
+  padding: 8px;
+}
+.mainMenu__list::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+.iconBgrd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  background-color: #ff3e79;
+  border-radius: 50%;
+}
+
+.divider {
+  width: 2px;
+  height: 40px;
+  background-color: #eaeaea;
+}
+
+.topBar__logo {
+  cursor: pointer;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+}

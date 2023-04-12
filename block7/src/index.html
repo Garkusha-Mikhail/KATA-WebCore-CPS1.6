@@ -13,9 +13,8 @@
   <body>
     <div class="wrapper">
       <!-- враппер страницы -->
-      <aside class="sideBar"
-        ><!-- боковое меню -->
-
+      <!-- боковое меню -->
+      <aside class="sideBar">
         <!--  /*верхняя навигационная панель*/ -->
         <nav class="sideBarMenu__header">
           <ul class="sideBarMenu__list">
@@ -26,7 +25,7 @@
               </div>
             </li>
             <li class="sideBarMenu__items">
-              <div href="#" class="logo">
+              <div href="#" class="sideLogo">
                 <img src="../src/img/cps-logo.svg" alt="логотип" />
               </div>
             </li>
@@ -66,6 +65,7 @@
             </ul>
           </nav>
         </nav>
+        <!-- нижнее меню -->
         <nav class="bottomMenu">
           <ul class="bottomMenu__list">
             <li class="bottmMenu__bar">
@@ -99,34 +99,74 @@
           </ul>
         </nav>
       </aside>
-
+      <!-- основной блок контента -->
       <div class="content">
         <div class="header">
           <nav class="topBar">
             <!-- верхнее меню -->
             <ul class="topBar__left">
               <!-- левая панель -->
-              <li class="topBar__item burger"></li>
-              <li class="topBar__item divider"></li
+              <li class="topBar__item"
+                ><!-- burger -->
+                <div href="#" class="icon">
+                  <img src="..//src/img/icons/burger.svg" alt="" />
+                </div>
+              </li>
+              <li class="topBar__item divider hiddenInMobile"></li
               ><!-- разедлитель -->
-              <li class="topBar__item logo"></li>
+              <li class="topBar__item logo">
+                <img src="..//src/img/cps-logo.svg" alt="" />
+              </li>
             </ul>
             <ul class="topBar__right">
               <!-- правая панель -->
-              <li class="topBar__item phone"></li>
-              <li class="topBar__item chat"></li>
-              <li class="topBar__item profile"></li>
-              <li class="topBar__item divider"></li
+              <li class="topBar__item phone hiddenInMobile">
+                <div href="#" class="icon">
+                  <img src="..//src/img/icons/phone.svg" alt="" />
+                </div>
+              </li>
+              <li class="topBar__item chat hiddenInMobile">
+                <div href="#" class="icon">
+                  <img src="..//src/img/icons/chat.svg" alt="" />
+                </div>
+              </li>
+              <li class="topBar__item profile hiddenInMobile">
+                <div href="#" class="icon">
+                  <img src="..//src/img/icons/profile.svg" alt="" />
+                </div>
+              </li>
+              <li class="topBar__item divider hiddenInMobile"></li
               ><!-- разедлитель -->
-              <li class="topBar__item repair"></li>
-              <li class="topBar__item checkstatus"></li>
+              <li class="topBar__item repair">
+                <div href="#" class="icon">
+                  <img src="..//src/img/icons/repair.svg" alt="" />
+                </div>
+              </li>
+              <li class="topBar__item checkstatus">
+                <div href="#" class="icon">
+                  <img src="..//src/img/icons/checkstatus.svg" alt="" />
+                </div>
+              </li>
             </ul>
           </nav>
           <div class="midBar">
-            <h1 class="midBar__title">Услуги и сервисы</h1>
-            <ul class="midBar__buttons">
-              <li class="midBar__application"></li>
-              <li class="midBar__status"></li>
+            <div class="midBar__title">
+              <div class="activeDivider"></div>
+              <h1 class="midBar__text">Услуги и сервисы</h1>
+            </div>
+            <ul class="midBar__buttons hiddenInMobile">
+              <li class="midBar__item hiddenInMobile">
+                <span class="buttons__text">Оставить заявку</span>
+                <div href="#" class="icon">
+                  <img src="..//src/img/icons/repair.svg" alt="" />
+                </div>
+              </li>
+              <li class="midBar__item hiddenInMobile">
+                <span class="buttons__text">Статус ремонта</span>
+                <div href="#" class="icon">
+                  <img src="..//src/img/icons/checkstatus.svg" alt="" />
+                </div>
+              </li>
             </ul>
           </div>
           <nav class="mainMenu">
@@ -532,7 +572,7 @@
             </div>
           </div>
         </section>
-        <footer>
+        <footer class="footer">
           <div class="copyright">
             © 2019 CPS
             <p> Разработано командой Apesong</p>
